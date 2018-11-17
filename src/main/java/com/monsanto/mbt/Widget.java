@@ -40,7 +40,7 @@ public class Widget {
 
 	public static Comparator<Widget> colorComp = new Comparator<Widget>() {
 
-		@Override
+		
 		public int compare(Widget widget1, Widget widget2) {
 
 			return widget1.getColor().toUpperCase()
@@ -50,7 +50,7 @@ public class Widget {
 
 	public static Comparator<Widget> ProdDateComp = new Comparator<Widget>() {
 
-		@Override
+		
 		public int compare(Widget widjet1, Widget widjet2) {
 
 			if (widjet1.getProductionDate().before(widjet2.getProductionDate())) {
